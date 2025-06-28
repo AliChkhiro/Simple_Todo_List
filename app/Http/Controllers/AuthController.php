@@ -22,7 +22,8 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect()->route('todos.index')->with('success', 'Connexion réussie.');
+            return redirect()->route('dashboard')->with('success', 'Connexion réussie.');
+
         }
 
         return back()->withErrors([
@@ -53,7 +54,8 @@ class AuthController extends Controller
 
         Auth::login($user);
 
-        return redirect()->route('todos.index')->with('success', 'Compte créé avec succès.');
+        return redirect()->route('dashboard')->with('success', 'Compte créé avec succès.');
+
     }
 
     // Déconnexion

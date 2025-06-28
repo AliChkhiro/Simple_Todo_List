@@ -16,7 +16,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('todos.index') }}">
+            <a class="navbar-brand" href="{{ route('dashboard') }}">
                 <img src="https://img.icons8.com/color/36/000000/todo-list.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
                 Ma To-Do App
             </a>
