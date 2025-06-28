@@ -44,17 +44,10 @@
                     @enderror
                 </div>
 
-                <!-- Statut complété -->
-                <div class="form-check mb-4">
-                    <input class="form-check-input" type="checkbox" name="completed" id="completed"
-                        {{ old('completed', $todo->completed) ? 'checked' : '' }}>
-                    <label class="form-check-label" for="completed">✅ Marquer comme complété</label>
-                </div>
-
                 <!-- Boutons -->
                 <div class="d-flex gap-2">
-                    <button type="submit" class="btn btn-success">💾 Mettre à jour</button>
-                    <a href="{{ route('todos.index') }}" class="btn btn-secondary">↩️ Retour</a>
+                    <button type="submit" class="btn btn-success"> Mettre à jour</button>
+                    <a href="{{ route('todos.index') }}" class="btn btn-secondary"> Retour</a>
                 </div>
             </form>
         </div>

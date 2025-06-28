@@ -44,10 +44,10 @@
                 <!-- Boutons -->
                 <div class="d-flex gap-2">
                     <button type="submit" class="btn btn-success">
-                        ✅ Ajouter
+                         Ajouter
                     </button>
                     <a href="{{ route('todos.index') }}" class="btn btn-secondary">
-                        ↩️ Retour
+                         Retour
                     </a>
                 </div>
             </form>
