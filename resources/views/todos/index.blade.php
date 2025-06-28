@@ -22,25 +22,17 @@
         <button type="submit" class="btn btn-outline-primary">Rechercher</button>
         <a href="{{ route('todos.index') }}" class="btn btn-outline-secondary">Réinitialiser</a>
     </div>
-</form>
+    </form>
 
+    @php
+        $search = request('search');
+    @endphp
 
-    <!-- Filtres -->
-   <!-- <div class="mb-4">
-        <a href="{{ route('todos.index') }}" class="btn btn-outline-secondary btn-sm">Toutes</a>
-        <a href="{{ route('todos.index', ['filter' => 'completed']) }}" class="btn btn-outline-success btn-sm">Terminées</a>
-        <a href="{{ route('todos.index', ['filter' => 'active']) }}" class="btn btn-outline-warning btn-sm">Non terminées</a>
+    <div class="mb-4">
+        <a href="{{ route('todos.index', ['search' => $search]) }}" class="btn btn-outline-secondary btn-sm">Toutes</a>
+        <a href="{{ route('todos.index', ['filter' => 'completed', 'search' => $search]) }}" class="btn btn-outline-success btn-sm">Terminées</a>
+        <a href="{{ route('todos.index', ['filter' => 'active', 'search' => $search]) }}" class="btn btn-outline-warning btn-sm">Non terminées</a>
     </div>
--->
-@php
-    $search = request('search');
-@endphp
-
-<div class="mb-4">
-    <a href="{{ route('todos.index', ['search' => $search]) }}" class="btn btn-outline-secondary btn-sm">Toutes</a>
-    <a href="{{ route('todos.index', ['filter' => 'completed', 'search' => $search]) }}" class="btn btn-outline-success btn-sm">Terminées</a>
-    <a href="{{ route('todos.index', ['filter' => 'active', 'search' => $search]) }}" class="btn btn-outline-warning btn-sm">Non terminées</a>
-</div>
 
 
     <div class="row">
@@ -82,6 +74,7 @@
         <div class="alert alert-info">Aucune tâche à afficher.</div>
         @endforelse
     </div>
+    
 </div>
 
 <!-- SweetAlert2 -->
