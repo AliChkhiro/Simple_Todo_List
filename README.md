@@ -2,22 +2,16 @@
 
 Voici quelques captures d’écran :
 
-<p>
-  <img src="images/page_deconnexion.png" alt="Page Déconnexion" width="600" />
-</p>
+![Logout Page](https://github.com/AliChkhiro/Simple_Todo_List/blob/1dce3b9520f085ff2915fac95c73df4b64f2c8cb/images/1_Logout_Page.png)
 
-<p>
-  <img src="images/page_connexion.png" alt="Page Connexion" width="600" />
-</p>
+![Login Page](https://github.com/AliChkhiro/Simple_Todo_List/blob/1dce3b9520f085ff2915fac95c73df4b64f2c8cb/images/2_Login_Page.png)
 
-<p>
-  <img src="images/dashboard.png" alt="Dashboard" width="600" />
-</p>
 
-<p>
-  <img src="images/page_principale.png" alt="Page Principale" width="600" />
-</p>
+![Dashboard Page](https://github.com/AliChkhiro/Simple_Todo_List/blob/1dce3b9520f085ff2915fac95c73df4b64f2c8cb/images/3_Dashboard.png)
 
-<p>
-  <img src="images/ajouter_tache.png" alt="Ajouter une Tâche" width="600" />
-</p>
+
+![Main Page]([chemin/vers/image.png](https://github.com/AliChkhiro/Simple_Todo_List/blob/1dce3b9520f085ff2915fac95c73df4b64f2c8cb/images/4_principal_Page.png))
+
+
+![Add a Task]([chemin/vers/image.png](https://github.com/AliChkhiro/Simple_Todo_List/blob/1dce3b9520f085ff2915fac95c73df4b64f2c8cb/images/5_Ajouter%20une%20nouvelle%20T%C3%A2che.png))
+
